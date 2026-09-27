@@ -28,3 +28,30 @@ I'm sorry. I forgive you. You are not alone. I love you.
 Status: executable base ruleset and automated balance harness are implemented and test-backed; generalized TIWCG architecture is planned in PLAN.md. Human playtest and store/mobile delivery remain pending on main. Some explicitly logged card effects remain unresolved and must not be represented as complete.
 
 hmmm — fear and the holy are the same six letters; the base game and its first expansion now also have separate addresses.
+
+## License
+
+The TIWCG software is licensed under the Mozilla Public License 2.0 (SPDX:
+`MPL-2.0`). The full text is in [`LICENSES/MPL-2.0.txt`](LICENSES/MPL-2.0.txt).
+[`REUSE.toml`](REUSE.toml) records the same scope in
+machine-readable form (REUSE Specification 3.x, no per-file headers):
+
+- MPL-2.0: `engine/`, `render/`, `mobile/`, `scared-sacred_msdmd.ts`, and the
+  repository tooling `.github/`, `.gitignore` and `REUSE.toml`.
+- MPL-2.0 (from The-Interdependency/skill-lib): the skill copies under `.agents/`.
+
+`hmmm`: these paths are **not** licensed yet:
+
+- `canon/`, `base-game/` (rules text and the `*.json` card data), `expansions/`,
+  `funding/`, `PLAN.md`
+- `docs/` (the icon artwork)
+- `README.md`, which carries game content (the layer descriptions and The Litany)
+  alongside this licensing map
+
+A separate license for rules text (planned: Creative Commons attribution-share-alike
+terms) and a decision on the card data are still pending. `reuse lint` reports
+exactly these paths as missing license information, on purpose.
+
+Usage: when you reuse TIWCG code, keep the MPL-2.0 notice and publish your
+changes to MPL-covered files under MPL-2.0. `reuse spdx` prints a per-file bill
+of materials. This section is a licensing map, not legal advice.
