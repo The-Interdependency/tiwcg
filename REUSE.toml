@@ -1,0 +1,32 @@
+# REUSE.toml (REUSE Specification 3.x): machine-readable form of the
+# "## License" section in README.md. No per-file headers are used.
+#
+# Covered: TIWCG software and repository tooling, under MPL-2.0.
+# Deliberately NOT annotated (no license yet): canon/, base-game/ (rules
+# text and card data), expansions/, funding/, PLAN.md, docs/ and README.md.
+# README.md is left unlicensed because it carries game content (layer
+# descriptions, The Litany) alongside the licensing map. Running
+# `reuse lint` therefore reports those paths as missing license
+# information; that is intentional until the rules-text license is chosen.
+version = 1
+
+[[annotations]]
+path = [
+  "engine/**",
+  "render/**",
+  "mobile/**",
+  "scared-sacred_msdmd.ts",
+  ".github/**",
+  ".gitignore",
+  "REUSE.toml",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Erin Spencer"
+SPDX-License-Identifier = "MPL-2.0"
+
+[[annotations]]
+# Skill copies vendored from The-Interdependency/skill-lib (MPL-2.0).
+path = ".agents/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 The-Interdependency/skill-lib authors"
+SPDX-License-Identifier = "MPL-2.0"
