@@ -32,8 +32,8 @@ hmmm — fear and the holy are the same six letters; the base game and its first
 ## License
 
 The TIWCG software is licensed under the Mozilla Public License 2.0 (SPDX:
-`MPL-2.0`). The full text is in [`LICENSE`](LICENSE), with a REUSE copy in
-`LICENSES/MPL-2.0.txt`. [`REUSE.toml`](REUSE.toml) records the same scope in
+`MPL-2.0`). The full text is in [`LICENSES/MPL-2.0.txt`](LICENSES/MPL-2.0.txt).
+[`REUSE.toml`](REUSE.toml) records the same scope in
 machine-readable form (REUSE Specification 3.x, no per-file headers):
 
 - MPL-2.0: `engine/`, `render/`, `mobile/`, `scared-sacred_msdmd.ts`, and the
