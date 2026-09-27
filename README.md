@@ -28,3 +28,20 @@ I'm sorry. I forgive you. You are not alone. I love you.
 Status: executable base ruleset and automated balance harness are implemented and test-backed; generalized TIWCG architecture is planned in PLAN.md. Human playtest and store/mobile delivery remain pending on main. Some explicitly logged card effects remain unresolved and must not be represented as complete.
 
 hmmm — fear and the holy are the same six letters; the base game and its first expansion now also have separate addresses.
+
+## License
+
+The TIWCG software is licensed under the Mozilla Public License 2.0 (SPDX:
+`MPL-2.0`). The full text is in [`LICENSE`](LICENSE). "Software" here means
+`engine/`, `render/`, `mobile/` and `scared-sacred_msdmd.ts`. The skills under
+`.agents/skills/` are copies from The-Interdependency/skill-lib and keep that
+repository's MPL-2.0 license.
+
+`hmmm`: the rules text and game content (`canon/`, `base-game/`, `expansions/`,
+`funding/`, `PLAN.md`, `docs/`) are **not** covered by this license yet. A separate
+license for rules text (planned: Creative Commons attribution-share-alike terms) and a decision on the
+`base-game/*.json` card data are still pending.
+
+Usage: when you reuse TIWCG code, keep the MPL-2.0 notice and publish your
+changes to MPL-covered files under MPL-2.0. This section is a licensing map,
+not legal advice.
