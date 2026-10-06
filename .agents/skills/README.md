@@ -1,4 +1,18 @@
-# Vendored skills
-Copied verbatim from https://github.com/The-Interdependency/skill-lib
-Source commit: 289d4959f7920efc214f180cca3443d8090f4095
-Repo-local copies are never the source of truth. Edit in skill-lib first; propagate with SHA citation.
+# Local agent skills
+
+This directory contains repo-local copies of canonical skills from
+`The-Interdependency/skill-lib`.
+
+Source commit: `38c64332b840b2bbe1c07e53aeee8996644548e9`
+
+Repo-local copies are not the source of truth. Edit `skill-lib` first,
+then propagate from the canonical source.
+
+Skills refreshed from the source commit above:
+
+- `canon/`
+- `char-compress/`
+- `meta-module-build/`
+- `msdmd/`
+- `skill-build/`
+- `the-interdependency/`
